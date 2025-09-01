@@ -10,7 +10,7 @@ cd ~/rpi5cpu
 
 ### Use IPCamera as inpout source
 ### Choose the target in ./src/yolov8n-ipcam.py
-make ipcam    # IP camera
+make ipcam    # IP camera: Object detection
 
 ### Use usb canera as inpout source
 make det      # Object detection
