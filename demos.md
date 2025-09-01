@@ -2,12 +2,15 @@
 
 
 ---
-### IPCam
+### RPI5: IPCam 
 
 ```
 sshpass -p rpi5demo ssh demo@192.168.52.65 -X
 cd ~/rpi5cpu
 make ipcam
+make det      # Object detection
+make pos      # Pose estimation
+make seg      # Instance segmentation
 ```
 
 ---
