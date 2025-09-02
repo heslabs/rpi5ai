@@ -1,6 +1,6 @@
 # Raspberry Pi5 Demos
 
-The examples are provided for demo purpose on an “AS IS” basis. No responsibility or liability is accepted or shall be imposed regarding the accuracy, merchantability, completeness or suitability of the code example. 
+The code examples are provided for demo purpose on an “AS IS” basis. No responsibility or liability is accepted or shall be imposed regarding the accuracy, merchantability, completeness or suitability of the code example. 
 
 ---
 ### Connect Raspberry Pi 5 device
