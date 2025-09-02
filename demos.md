@@ -12,7 +12,7 @@ The code examples are provided for demo purpose on an “AS IS” basis. No resp
     * Recorded video: Object detection, Pose estimation, Instance segmentation
 5. RPI5 CPU: Whisper
     * Whisper: Recorded audio to text
-    * Whisper: Live speech to text
+    * Whisper: Live audio to text
 7. RPI5 CPU: Ollama Chatbot
     * Ollama Chatbot: Use text as the prompt input for Chatbot
     * Ollama Chatbot: Use recorded audio as the prompt input for Chatbot
@@ -90,7 +90,7 @@ $ make demo-ch model=small
 ```
 
 ```
-## Live speech to text
+## Live audio to text
 $ cd ~/whisper
 $ make live model=small
 $ make live-ch2en model=small
