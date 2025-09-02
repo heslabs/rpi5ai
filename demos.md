@@ -2,6 +2,12 @@
 
 The code examples are provided for demo purpose on an “AS IS” basis. No responsibility or liability is accepted or shall be imposed regarding the accuracy, merchantability, completeness or suitability of the code example. 
 
+### Demo examples
+1. RPI5 CPU: IP Camera2
+2. RPI5 CPU + Halio8L (13TOPS)
+3. RPI5 CPU: Whisper
+4. RPI5 CPU: Ollama Chatbot
+
 ---
 ### Connect Raspberry Pi 5 device
 
@@ -19,7 +25,7 @@ $ sshpass -p rpi5demo ssh demo@192.168.72.65 -X
 ```
 
 ---
-### RPI5: IPCam 
+### RPI5 CPU: IP Camera
 
 ```
 ## Use IP Camera as inpout source
@@ -37,7 +43,7 @@ $ make seg      # Instance segmentation
 ```
 
 ---
-### RPI5 + Halio8L (13TOPS)
+### RPI5 CPU + Halio8L (13TOPS)
 
 ```
 $ cd ~/rpi5hailo/hailo-rpi5-examples
@@ -55,7 +61,7 @@ $ make seg-u     # Instance segmentation
 ```
 
 ---
-### RPI5: Whisper
+### RPI5 CPU: Whisper
 
 ```
 ## Connect bluetooth speaker device
@@ -82,7 +88,7 @@ $ make live-ch2en model=small
 ```
 
 ---
-### RPI5: Ollama Chatbot
+### RPI5 CPU: Ollama Chatbot
 
 ```
 ## Start Ollama service for Chatbot
