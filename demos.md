@@ -11,8 +11,8 @@ sshpass -p rpi5demo ssh demo@192.168.52.65 -X
 ### RPI5: IPCam 
 
 ```
-### Use IPCamera as inpout source
-### Choose the target in ./src/yolov8n-ipcam.py
+### Use IP Camera as inpout source
+### Choose the target (URL) in ./src/yolov8n-ipcam.py
 cd ~/rpi5cpu
 make ipcam    # IP camera: Object detection
 ```
@@ -68,5 +68,25 @@ make demo-ch model=small
 cd ~/whisper
 make live model=small
 make live-ch2en model=small
+```
+
+---
+### RPI5: Ollama Chatbot
+
+```
+### Start Ollama service for Chatbot
+cd ~/ollama-chat
+make serve
+```
+
+```
+### Use text as the prompt input for Chatbot
+cd ~/ollama-chat
+make run-chat MM=llama3.2:1b
+```
+
+```
+### Use recorded audio as the prompt input for Chatbot
+make run-audio MM=llama3.2:1b
 ```
 
