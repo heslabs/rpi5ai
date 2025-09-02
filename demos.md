@@ -4,11 +4,18 @@ The code examples are provided for demo purpose on an “AS IS” basis. No resp
 
 ---
 ### Demo examples
-1. RPI5 CPU: IP Camera2
-2. RPI5 CPU + Halio8L (13TOPS)
-3. RPI5 CPU: Whisper
-4. RPI5 CPU: Ollama Chatbot
-
+1. RPI5 CPU
+    * IP Camera: Object detection
+    * USB camera: Object detection, Pose estimation, Instance segmentation
+3. RPI5 CPU + Halio8L (13TOPS)
+    * USB camera: Object detection, Pose estimation, Instance segmentation
+    * Recorded video: Object detection, Pose estimation, Instance segmentation
+5. RPI5 CPU: Whisper
+    * Whisper: Recorded audio to text
+    * Whisper: Live speech to text
+7. RPI5 CPU: Ollama Chatbot
+    * Ollama Chatbot: Use text as the prompt input for Chatbot
+    * Ollama Chatbot: Use recorded audio as the prompt input for Chatbot
 
 ---
 ### Connect Raspberry Pi 5 device
@@ -56,7 +63,7 @@ $ make det       # Object detection
 $ mkae pos       # Pose estimation
 $ make seg       # Instance segmentation
 
-## Use usb camera as inpout source
+## Use USB camera as inpout source
 $ make det-u     # Object detection
 $ make pos-u     # Pose estimation
 $ make seg-u     # Instance segmentation
