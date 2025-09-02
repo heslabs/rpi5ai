@@ -89,6 +89,7 @@ make run-chat MM=llama3.2:1b
 
 ```
 ## Use recorded audio as the prompt input for Chatbot
+cd ~/ollama-chat
 make run-audio MM=llama3.2:1b
 ```
 
