@@ -15,6 +15,7 @@ The code examples are provided for demo purpose on an “AS IS” basis. No resp
     * Whisper: Recorded audio to text
     * Whisper: Live audio to text
 7. [RPI5 CPU: Ollama Chatbot](https://github.com/heslabs/rpi5ai/edit/main/demos.md#rpi5-cpu-ollama-chatbot)
+    * Start Ollama service
     * Ollama Chatbot: Use text as the prompt input for Chatbot
     * Ollama Chatbot: Use recorded audio as the prompt input for Chatbot
 
