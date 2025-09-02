@@ -2,17 +2,24 @@
 
 
 ---
+### Connect Raspberry Pi 5 device
+```
+sshpass -p rpi5demo ssh demo@192.168.52.65 -X
+```
+
+---
 ### RPI5: IPCam 
 
 ```
-sshpass -p rpi5demo ssh demo@192.168.52.65 -X
-cd ~/rpi5cpu
-
 ### Use IPCamera as inpout source
 ### Choose the target in ./src/yolov8n-ipcam.py
+cd ~/rpi5cpu
 make ipcam    # IP camera: Object detection
+```
 
+```
 ### Use usb canera as inpout source
+cd ~/rpi5cpu
 make det      # Object detection
 make pos      # Pose estimation
 make seg      # Instance segmentation
@@ -21,8 +28,7 @@ make seg      # Instance segmentation
 ---
 ### RPI5 + Halio8L (13TOPS)
 
-````
-sshpass -p rpi5demo ssh demo@192.168.52.65 -X
+```
 cd ~/rpi5hailo/hailo-rpi5-examples
 source ./setuo_env.sh
 
@@ -36,3 +42,31 @@ make det-u     # Object detection
 make pos-u     # Pose estimation
 make seg-u     # Instance segmentation
 ```
+
+---
+### RPI5: Whisper
+
+```
+### Connect bluetooth speaker device
+cd ~/whisper
+make ble
+bluetoothctl scan on
+## [NEW] Device 64:68:76:1A:84:23 EDIFIER MF200
+bluetoothctl remove 64:68:76:1A:84:23
+bluetoothctl connect 64:68:76:1A:84:23
+```
+
+```
+### Recorded audio to text
+cd ~/whisper
+make demo-flac model=small
+make demo-ch model=small
+```
+
+```
+### Live speech to text
+cd ~/whisper
+make live model=small
+make live-ch2en model=small
+```
+
