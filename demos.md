@@ -11,6 +11,7 @@ The code examples are provided for demo purpose on an “AS IS” basis. No resp
     * USB camera: Object detection, Pose estimation, Instance segmentation
     * Recorded video: Object detection, Pose estimation, Instance segmentation
 5. [RPI5 CPU: Whisper](https://github.com/heslabs/rpi5ai/edit/main/demos.md#rpi5-cpu-whisper)
+    * Connect bluetooth speaker device
     * Whisper: Recorded audio to text
     * Whisper: Live audio to text
 7. [RPI5 CPU: Ollama Chatbot](https://github.com/heslabs/rpi5ai/edit/main/demos.md#rpi5-cpu-ollama-chatbot)
