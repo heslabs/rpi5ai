@@ -45,7 +45,7 @@ https://datasheets.raspberrypi.com/rpi5/raspberry-pi-5-product-brief.pdf
 
 <img src="https://github.com/user-attachments/assets/25582b20-38ae-45b2-b9f5-aa50fd84556a" width=330>
 <img src="https://github.com/user-attachments/assets/5a295757-284f-49a3-8c5f-ecd0db0ae2ae" width=350>
-<img width="661" height="509" alt="image" src="https://github.com/user-attachments/assets/dcc2abf5-b1a9-491d-840b-886bd0d2e801" />
+<img width="460" height="350" alt="image" src="https://github.com/user-attachments/assets/dcc2abf5-b1a9-491d-840b-886bd0d2e801" />
 
 ---
 ### Raspberry Pi HAT+ Specification
