@@ -32,7 +32,7 @@ https://www.raspberrypi.com/products/raspberry-pi-5/
 https://datasheets.raspberrypi.com/rpi5/raspberry-pi-5-product-brief.pdf
 
 ---
-### Raspberry Pi AI Kit and AI HAT+  
+### Raspberry Pi AI Kit and Raspberry Pi M.2 HAT+  
 
 * Raspberry Pi AI Kit
   * https://www.raspberrypi.com/products/ai-kit/
